@@ -61,6 +61,3 @@ Ctrl-p.vim doesn't load:
     let g:loaded_ctrlp = 1
 
 That's it, you're all done. Enjoy and don't forget to reload your vimrc.
-
-<br>
-<br>
