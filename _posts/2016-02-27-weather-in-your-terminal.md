@@ -8,7 +8,7 @@ Thanks to wttr.in, you can now view the weather for your city right from your
 command line. Why should you care? Cause it's great, that's why. See for
 yourself:
 
-![Weather in Washington, DC:](http://i.imgur.com/pqEBt1N.png =500x500)
+![Weather in Washington, DC:](http://i.imgur.com/pqEBt1N.png){:height="500px" width="500px"}
 
 Neato. You can check your cities weather by running the following command
 from the command line(must have curl installed):

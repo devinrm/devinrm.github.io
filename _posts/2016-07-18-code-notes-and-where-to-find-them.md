@@ -73,7 +73,7 @@ this mapping in my .vimrc for that:
     " Code notes
     nnoremap <Leader>cn :Sex ~/dotfiles-local/notes/<cr>
 
-![Code Notes Screenshot:](http://i.imgur.com/UbuMyFh.png =500x500)
+![Code Notes Screenshot:](http://i.imgur.com/UbuMyFh.png){:height="500px" width="500px"}
 
 Now I can hit `<leader>cn` from any vim buffer and I will get a horizontally split
 directory that shows all my note files and then I can just select the one
