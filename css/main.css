@@ -48,3 +48,7 @@ ul.posts {
 ul.posts li {
   list-style: none;
 }
+
+.reading-list {
+  padding-top: .375em;
+}
