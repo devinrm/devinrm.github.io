@@ -101,6 +101,7 @@ ul.posts li {
 }
 
 .post-title {
+  display: block;
   margin-bottom: 3px;
 }
 
