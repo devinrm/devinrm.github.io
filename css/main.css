@@ -41,7 +41,7 @@ body {
 }
 
 .blurb,
-.container,
+.posts,
 nav,
 footer {
   margin-left: auto;
@@ -102,11 +102,6 @@ ul.posts li {
 
 .post-title {
   display: block;
-  margin-bottom: 3px;
-}
-
-.post-date {
-  margin-bottom: 5px;
 }
 
 @-ms-viewport {
