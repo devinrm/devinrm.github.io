@@ -1,3 +1,7 @@
+html {
+  border: 2px solid #abff00;
+}
+
 body {
   margin: 60px auto;
   width: 70%;
