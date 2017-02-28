@@ -67,11 +67,11 @@ footer ul li {
 
 a {
   color: #757575;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  font-weight: 700;
 }
 
 h1 {
