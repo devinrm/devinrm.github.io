@@ -8,7 +8,8 @@ title: blog
   {% for post in site.posts %}
     <li>
       <a class="post-title" href="{{ post.url }}" title="{{ post.title }}">❯ {{ post.title }}</a>
-      <span class="post-date">{{ post.date | date_to_string }}</span></br>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+      &nbsp;
     </li>
   {% endfor %}
 </ul>
