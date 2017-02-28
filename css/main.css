@@ -37,8 +37,11 @@
 }
 
 body {
-  margin: 60px auto;
-  width: 70%;
+  padding: 0;
+}
+
+nav {
+  position: relative;
 }
 
 nav ul, footer ul {
@@ -48,7 +51,8 @@ nav ul, footer ul {
   padding: 0;
 }
 
-nav ul li, footer ul li {
+nav ul li,
+footer ul li {
   display: inline;
   margin-right: 20px;
 }
