@@ -1,5 +1,39 @@
-html {
-  border: 2px solid #abff00;
+.top,
+.bottom,
+.left,
+.right {
+  background: #abff00;
+  position: fixed;
+}
+
+.left,
+.right {
+  bottom: 0;
+  top: 0;
+  width: 2px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.top,
+.bottom {
+  height: 2px;
+  left: 0;
+  right: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
 }
 
 body {
