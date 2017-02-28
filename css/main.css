@@ -40,11 +40,7 @@ body {
   padding: 0;
 }
 
-.blurb,
-.posts,
-.blog,
-.books,
-.reading-list,
+.container,
 nav,
 footer {
   margin-left: auto;
