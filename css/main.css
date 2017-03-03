@@ -96,7 +96,7 @@ ul.posts li {
 }
 
 .post-title {
-  display: inline-block;
+  display: block;
 }
 
 .post-date {
