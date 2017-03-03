@@ -92,6 +92,7 @@ ul.posts {
 }
 
 ul.posts li {
+  content: '❯';
   list-style: none;
 }
 
