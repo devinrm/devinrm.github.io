@@ -92,11 +92,14 @@ ul.posts {
 }
 
 ul.posts li {
-  content: '❯';
   list-style: none;
 }
 
 .post-title {
+  display: inline-block;
+}
+
+.post-date {
   display: block;
 }
 
