@@ -4,7 +4,7 @@ title: "Viewing the Weather in Your Terminal is a Joy"
 date: 2016-02-27
 ---
 
-Thanks to wttr.in, you can now view the weather for your city right from your
+Thanks to [wttr.in](http://wttr.in/), you can now view the weather for your city right from your
 command line. Why should you care? Cause it's great, that's why. See for
 yourself:
 
