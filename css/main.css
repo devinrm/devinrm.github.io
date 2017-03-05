@@ -37,6 +37,7 @@
 }
 
 body {
+  font-family: 'Mate', serif;
   padding: 0;
 }
 
@@ -53,7 +54,6 @@ footer {
 
 nav ul,
 footer ul {
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   font-weight: bold;
   list-style: none;
   padding: 0;
@@ -71,7 +71,6 @@ a {
 }
 
 h1 {
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
   font-size: 3em;
 }
 
@@ -97,11 +96,13 @@ ul.posts li {
 
 .post-date {
   display: block;
+  font-size: .75em;
+  font-style: italic;
 }
 
 .quote {
   color: #fff;
-  font-size: 5px;
+  font-size: .375em;
 }
 
 @-ms-viewport {
