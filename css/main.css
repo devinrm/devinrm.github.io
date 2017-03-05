@@ -105,6 +105,10 @@ ul.posts li {
   font-size: .375em;
 }
 
+.yearbooks {
+  list-style-type: circle;
+}
+
 @-ms-viewport {
   width: device-width;
 }
