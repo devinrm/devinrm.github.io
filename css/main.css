@@ -10,7 +10,7 @@
 .right {
   bottom: 0;
   top: 0;
-  width: 2px;
+  width: 5px;
 }
 
 .left {
@@ -23,7 +23,7 @@
 
 .top,
 .bottom {
-  height: 2px;
+  height: 5px;
   left: 0;
   right: 0;
 }
