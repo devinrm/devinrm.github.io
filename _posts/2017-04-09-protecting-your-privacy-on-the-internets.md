@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Protecting your privacy on the internets"
+title: "Protecting Your Privacy on the Internets"
 date: 2017-04-09
 ---
 
@@ -13,9 +13,10 @@ VPN
 
 I use [Private Internet Access](https://www.privateinternetaccess.com/) for my
 VPN. It's been very reliable. In the year I've been using it, it hasn't dropped
-my connection once. Pretty impressive. They also have iOS and Android apps that
-work very well. And for the privacy minded, you'll be happy to know they don't
-keep traffic logs.
+my connection once. Pretty impressive. They also have [iOS](https://itunes.apple.com/us/app/private-internet-access-anonymous/id955626407)
+and [Android](https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en)
+apps that work very well. And for the privacy minded, you'll be happy to know
+they don't keep traffic logs.
 
 _Tip when using PIA:_ If your computer goes on standby or you connect to a
 different WiFi network, you might need to disconnect and reconnect to the VPN.
@@ -162,6 +163,27 @@ For every service that offers it, I take advantage of 2FA. I use
 [Authy](https://www.authy.com/app/mobile/) to store my account security codes.
 You can see whether a site you use supports 2FA by checking here:
 [https://twofactorauth.org/](https://twofactorauth.org/)
+
+Password Manager
+----------------
+
+I use [KeePassXC](https://keepassxc.org/) for my password manager and I store my
+database in my Spider Oak One cloud storage, so on the rare occasion I need my
+passwords on my phone I can access them with [Keepass2Android
+Offline](https://play.google.com/store/apps/details?id=keepass2android.keepass2android_nonet&hl=en).
+
+Search Engine
+-------------
+
+I use [startpage](https://www.startpage.com/) for my search engine on desktop
+and mobile.
+
+See these articles for configuring your default search engine on Firefox and
+Chromium:
+
+[Firefox](https://support.mozilla.org/t5/Search-and-browse-settings/Add-or-remove-a-search-engine-in-Firefox/ta-p/34220)
+
+[Chrome/Chromium](https://support.google.com/chrome/answer/95426?co=GENIE.Platform%3DDesktop&hl=en)
 
 If you use Google apps
 ----------------------
