@@ -12,8 +12,8 @@ VPN
 ---
 
 I use [Private Internet Access](https://www.privateinternetaccess.com/) for my
-VPN. It's been very reliable. In the year I've been using it, it hasn't dropped
-my connection once. Pretty impressive. They also have [iOS](https://itunes.apple.com/us/app/private-internet-access-anonymous/id955626407)
+VPN. It's been quite reliable in the year I've been using it. My connection
+hasn't dropped once, which is pretty impressive. They also have [iOS](https://itunes.apple.com/us/app/private-internet-access-anonymous/id955626407)
 and [Android](https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en)
 apps that work very well. And for the privacy minded, you'll be happy to know
 they don't keep traffic logs.
@@ -38,7 +38,7 @@ way: [Download your
 data](https://support.google.com/accounts/answer/3024190?hl=en)
 
 You can view your archived emails in an email viewer like [Thunderbird](https://www.mozilla.org/en-US/thunderbird/),
-which is cable of reading the `mbox` file format.
+which is capable of reading the `mbox` file format.
 
 ---
 
