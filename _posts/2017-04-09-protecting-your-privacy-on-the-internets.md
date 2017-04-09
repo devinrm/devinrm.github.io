@@ -45,7 +45,7 @@ which is capable of reading the `mbox` file format.
 Cloud Storage
 -------------
 
-Since I don't use Gmail, it may come as no surprise that I don't use Google
+Since I don't use Gmail, it should come as no surprise that I don't use Google
 Drive either. Instead I use [Spider Oak
 One](https://spideroak.com/personal/spideroak-one). It's secure, reliable, and
 built upon the "no knowledge" open-source Crypton framework.
