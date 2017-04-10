@@ -5,7 +5,7 @@ date: 2017-04-09
 ---
 
 I've had a lot of people ask me recently about how they can protect their
-privacy online, so is this is my all-encompassing blog post on the software I
+privacy online, so this is my all-encompassing blog post on the software I
 use.
 
 VPN
