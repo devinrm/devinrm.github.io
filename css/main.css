@@ -109,6 +109,10 @@ ul.posts li {
   list-style-type: circle;
 }
 
+li {
+  margin-bottom: 0.25em;
+}
+
 @-ms-viewport {
   width: device-width;
 }
