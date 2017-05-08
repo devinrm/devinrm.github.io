@@ -148,7 +148,7 @@ end
 You might be thinking, "aren't view tests the same as feature tests?" and you
 wouldn't be completely wrong. View specs are often overlooked for feature specs
 but because feature specs can really slow down your test suite as your
-application grows, I think it's worth being discerning regarding whether test
+application grows, I think it's worth being discerning regarding whether the test
 you're about to right really needs to be a feature spec or whether it would be
 better suited as a faster view spec.
 
