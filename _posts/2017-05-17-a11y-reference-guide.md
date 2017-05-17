@@ -4,13 +4,11 @@ title: "A11y Reference Guide"
 date: 2017-05-17
 ---
 
-# a11y Reference Guide
-
 I've included below some of the most common areas you'll use when writing
 accessible web apps. This isn't an exhaustive guide, but it should help you get
 started along the path of Accessibility-Driven Development.
 
-The sources of truth:
+**The sources of truth:**
 
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
 * [WebAIM's WCAG 2.0 Checklist for HTML documents](http://webaim.org/standards/wcag/checklist)
