@@ -8,17 +8,37 @@ I've included below some of the most common areas you'll use when writing
 accessible web apps. This isn't an exhaustive guide, but it should help you get
 started along the path of Accessibility-Driven Development.
 
-**The sources of truth:**
+**Table of Contents**
+
+[Getting-Started](#getting-started)
+
+[Focus](#focus)
+
+[Semantics](#semantics)
+
+[Navigating Content](#navigating-content)
+
+[Aria](#aria)
+
+[Style](#style)
+
+------------------
+## Getting Started
+------------------
+
+### The sources of truth:
 
 * [Web Content Accessibility Guidelines (WCAG) 2.0](https://www.w3.org/TR/WCAG20/)
 * [WebAIM's WCAG 2.0 Checklist for HTML documents](http://webaim.org/standards/wcag/checklist)
 * [WCAG Quickref Guide](https://www.w3.org/WAI/WCAG20/quickref/)
 
-* Look for the POUR (Perceivable, Operable, Understandable, Robust) section that
-  you think might cover what you're looking for and then hopefully you'll be able
-  to find the rule number for your issue.
+> Quick tip: Look for the POUR (Perceivable, Operable, Understandable, Robust) section that
+> you think might cover what you're looking for and then hopefully you'll be able
+> to find the rule number for your issue.
 
+--------
 ## Focus
+--------
 
 * [Guideline 2.1 Keyboard Accessible: Make all functionality available from a keyboard](http://webaim.org/standards/wcag/checklist#sc2.1.1)
 
@@ -30,7 +50,7 @@ Move focus around the page using your keyboard:
 * SHIFT - TAB will move focus backwards
 * Arrow keys can be used to navigate inside of a component
 
-[7.4.2 Focus management](https://www.w3.org/TR/html5/editing.html#focus-management)
+> [7.4.2 Focus management](https://www.w3.org/TR/html5/editing.html#focus-management)
 
 ### DOM Order Matters
 
@@ -73,7 +93,9 @@ Another tool you can use is the [Chrome Accessibility Developer Tools Extension]
 * [Keyboard Trap](http://webaim.org/standards/wcag/checklist#sc2.1.2)
 * [`<dialog>` on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
 
+------------
 ## Semantics
+------------
 
 ### The Accessibility Tree
 
@@ -95,11 +117,13 @@ Another tool you can use is the [Chrome Accessibility Developer Tools Extension]
 
 ### Writing Semantic HTML
 
-* WebAIM Guideline 1.1: http://webaim.org/standards/wcag/checklist#g1.1
+* [WebAIM Guideline 1.1](http://webaim.org/standards/wcag/checklist#g1.1)
 * The [MDN page on `<label>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) demonstrates the two options for associating a `<label>` with the thing it's labelling.
 * The W3C spec has a [list of what types of elements work with a `<label>` tag](https://www.w3.org/TR/html5/forms.html#category-label).
 
+---------------------
 ## Navigating Content
+---------------------
 
 ### Navigating Content
 
@@ -118,7 +142,7 @@ Shortcuts:
 * `CTRL` + `Option` + `CMD` + `H` to move forward by heading
 * `CTRL` + `Option` + `CMD` + `Shift` + `H` to move backward by heading
 
-* [WebAIM's article on Using VoiceOver to evaluate Web Accessibility](http://webaim.org/articles/voiceover/) has a full introduction to VoiceOver from the point of view of evaluating accessibility, including most keyboard commands available.
+> [WebAIM's article on Using VoiceOver to evaluate Web Accessibility](http://webaim.org/articles/voiceover/) has a full introduction to VoiceOver from the point of view of evaluating accessibility, including most keyboard commands available.
 
 ### Using Headings
 
@@ -130,38 +154,42 @@ Shortcuts:
 
 ### accessKey
 
-* WebAIM's article on `accesskey`: http://webaim.org/techniques/keyboard/accesskey
+* [WebAIM's article on `accesskey`](http://webaim.org/techniques/keyboard/accesskey)
 
 ### Link Text
 
 * [Link Purpose (Link Only)](http://webaim.org/standards/wcag/checklist#sc2.4.9)
 
+-------
 ## Aria
+-------
 
-* ARIA 1.0 spec: https://www.w3.org/TR/wai-aria/
-* ARIA 1.1 spec: https://www.w3.org/TR/wai-aria-1.1/
+* [ARIA 1.0 spec](https://www.w3.org/TR/wai-aria/)
+* [ARIA 1.1 spec](https://www.w3.org/TR/wai-aria-1.1/)
 
 ### Roles
 
-* ARIA 1.0 roles: https://www.w3.org/TR/wai-aria/roles
-* ARIA 1.1 roles (draft): https://www.w3.org/TR/wai-aria-1.1/#roles
-* ARIA 1.1 practices guide (draft): https://www.w3.org/TR/wai-aria-practices-1.1/
+* [ARIA 1.0 roles](https://www.w3.org/TR/wai-aria/roles)
+* [ARIA 1.1 roles (draft)](https://www.w3.org/TR/wai-aria-1.1/#roles)
+* [ARIA 1.1 practices guide (draft)](https://www.w3.org/TR/wai-aria-practices-1.1/)
 
 ### Default Semantics And Landmarks
 
-* ARIA in HTML spec, including guidance on what ARIA roles may and may not be used with which HTML elements: https://www.w3.org/TR/html-aria/
+* [ARIA in HTML spec, including guidance on what ARIA roles may and may not be used with which HTML elements](https://www.w3.org/TR/html-aria/)
 
 ### ARIA Relationships
 
-* ARIA 1.0 relationship attributes: https://www.w3.org/TR/wai-aria/states_and_properties#attrs_relationships
-* ARIA 1.1 relationship attributes: https://www.w3.org/TR/wai-aria-1.1/#attrs_relationships
+* [ARIA 1.0 relationship attributes](https://www.w3.org/TR/wai-aria/states_and_properties#attrs_relationships)
+* [ARIA 1.1 relationship attributes](https://www.w3.org/TR/wai-aria-1.1/#attrs_relationships)
 * [ARIA Labels and Relationships](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships)
 
 ### Invisible Content Just for Screen Reader Users
 
 * [Invisible Content Just for Screen Reader Users](http://webaim.org/techniques/css/invisiblecontent/)
 
+--------
 ## Style
+--------
 
 ### Working With Focus Styles
 
