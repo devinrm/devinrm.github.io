@@ -52,15 +52,14 @@ footer {
   position: relative;
 }
 
-nav ul,
-footer ul {
+nav a,
+footer a {
   font-weight: bold;
-  list-style: none;
   padding: 0;
 }
 
-nav ul li,
-footer ul li {
+nav a,
+footer a {
   display: inline;
   margin-right: 20px;
 }
@@ -82,7 +81,7 @@ p {
 
 footer {
   border-top: 1px solid #d5d5d5;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 ul.posts {
