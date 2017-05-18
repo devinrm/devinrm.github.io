@@ -78,12 +78,6 @@ need to add to my controller action will actually work: does the current url
 show the slug for the movie I entered, and does the current paged show the movie
 I just saved?
 
-Of note: *I don't always test first when it comes to feature specs. Mostly
-because I prefer to write faster MVC specs and then I leave the slower feature
-specs for the "happy path" through the application once I'm done. However, when
-I first started doing TDD it helped out tremendously to write my feature specs
-first and I still think it's a reasonable practice to follow.*
-
 ## Model Tests
 
 I use model specs to test classes and methods. Model tests are nice because if
