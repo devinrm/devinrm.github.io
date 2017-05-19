@@ -2,7 +2,7 @@
 .bottom,
 .left,
 .right {
-  background: #abff00;
+  background: #dcdcdc;
   position: fixed;
 }
 
@@ -82,7 +82,7 @@ footer a {
 }
 
 a {
-  color: #757575;
+  color: #336699;
   text-decoration: underline;
 }
 
