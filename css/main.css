@@ -2,7 +2,7 @@
 .bottom,
 .left,
 .right {
-  background: #dcdcdc;
+  background: #75fe04;
   position: fixed;
 }
 
@@ -83,7 +83,7 @@ footer a {
 }
 
 a {
-  color: #336699;
+  color: #3366cc;
   text-decoration: none;
 }
 
