@@ -84,6 +84,11 @@ footer a {
 
 a {
   color: #336699;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
   text-decoration: underline;
 }
 
