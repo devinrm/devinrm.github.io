@@ -1,61 +1,6 @@
-.top,
-.bottom,
-.left,
-.right {
-  background: #75fe04;
-  position: fixed;
-}
-
-.left,
-.right {
-  bottom: 0;
-  top: 0;
-  width: 5px;
-}
-
-.left {
-  left: 0;
-}
-
-.right {
-  right: 0;
-}
-
-.top,
-.bottom {
-  height: 5px;
-  left: 0;
-  right: 0;
-}
-
-.top {
-  top: 0;
-}
-
-.bottom {
-  bottom: 0;
-}
-
 body {
   font-family: 'Mate', serif;
   padding: 0;
-}
-
-.skip a
-{
-  position:absolute;
-  left:-10000px;
-  top:auto;
-  width:1px;
-  height:1px;
-  overflow:hidden;
-}
-
-.skip a:focus
-{
-  position:static;
-  width:auto;
-  height:auto;
 }
 
 .container,
@@ -102,6 +47,10 @@ p {
   line-height: 1.15em;
 }
 
+li {
+  margin-bottom: 0.5em;
+}
+
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 1em;
@@ -115,6 +64,44 @@ ul.posts {
 
 ul.posts li {
   list-style: none;
+}
+
+.top,
+.bottom,
+.left,
+.right {
+  background: #75fe04;
+  position: fixed;
+}
+
+.left,
+.right {
+  bottom: 0;
+  top: 0;
+  width: 5px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.top,
+.bottom {
+  height: 5px;
+  left: 0;
+  right: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
 }
 
 .post-date {
@@ -133,8 +120,27 @@ ul.posts li {
   list-style-type: circle;
 }
 
-li {
-  margin-bottom: 0.25em;
+.intro {
+  font-size: 1.25em;
+  line-height: 1.15em;
+  margin-bottom: 1em;
+}
+
+.skip a
+{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.skip a:focus
+{
+  position:static;
+  width:auto;
+  height:auto;
 }
 
 @-ms-viewport {
