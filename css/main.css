@@ -121,6 +121,7 @@ ul.posts li {
   display: block;
   font-size: .75em;
   font-style: italic;
+  padding-bottom: .75em;
 }
 
 .quote {

@@ -3,15 +3,20 @@ layout: default
 title: blog
 ---
 <h1 class="blog">{{ page.title }}</h1>
-<ul class="posts">
-
-  {% for post in site.posts %}
+<article>
+  <ul class="posts">
+    {% for post in site.posts %}
     <li>
       <a class="post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       <span class="post-date">{{ post.date | date_to_string }}</span>
-      <h1 class="quote">"No half-heartedness and no worldly fear must turn us aside from
-        following the light unflinchingly." -J.R.R. Tolkien</h1>
     </li>
-  {% endfor %}
-</ul>
-
+    {% endfor %}
+  </ul>
+  <section>
+    <a href="http://www.tolkienlibrary.com/booksbytolkien/hobbit/description.htm"
+       class="quote">"There is nothing like looking, if you want to find
+       something. You certainly usually find something, if you look, but it is not
+       always quite the something you were after." -J.R.R. Tolkien, The Hobbit
+    </a>
+  </section>
+</article>
