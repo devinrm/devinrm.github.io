@@ -21,13 +21,13 @@ footer {
 }
 
 nav a {
-  color: #fff;
+  color: rgba(255,255,255,0.75);
   line-height: 4.5em;
 }
 
 nav a:hover,
 nav a:focus {
-  color: #00ff79;
+  color: #fff;
 }
 
 nav a,
@@ -46,6 +46,7 @@ a {
 
 a:hover,
 a:focus {
+  color: #0b57f1;
   text-decoration: underline;
 }
 
@@ -144,7 +145,7 @@ ul.posts li {
 
 .skip a
 {
-  color: #fff;
+  color: rgba(255,255,255,0.75);
   height:1px;
   left:-10000px;
   overflow:hidden;
@@ -155,7 +156,7 @@ ul.posts li {
 
 .skip a:focus
 {
-  color: #00ff79;
+  color: #fff;
   height:auto;
   position:static;
   width:auto;
