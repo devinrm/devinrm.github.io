@@ -3,6 +3,12 @@ body {
   padding: 0;
 }
 
+header {
+  margin: -1.5em;
+  background-color: #333;
+  height: 4.5em;
+}
+
 .container,
 nav,
 footer {
@@ -14,17 +20,23 @@ footer {
   position: relative;
 }
 
-nav a,
-footer a {
-  font-weight: bold;
-  padding: 0;
+nav a {
+  color: #fff;
+  line-height: 4.5em;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #00ff79;
 }
 
 nav a,
 footer a {
-  font-size: 1.25em;
   display: inline;
+  font-size: 1.25em;
+  font-weight: bold;
   margin-right: 20px;
+  padding: 0;
 }
 
 a {
@@ -128,19 +140,21 @@ ul.posts li {
 
 .skip a
 {
-  position:absolute;
+  color: #fff;
+  height:1px;
   left:-10000px;
+  overflow:hidden;
+  position:absolute;
   top:auto;
   width:1px;
-  height:1px;
-  overflow:hidden;
 }
 
 .skip a:focus
 {
+  color: #00ff79;
+  height:auto;
   position:static;
   width:auto;
-  height:auto;
 }
 
 @-ms-viewport {
