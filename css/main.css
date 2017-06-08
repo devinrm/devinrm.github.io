@@ -51,7 +51,7 @@ li {
 
 main {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
   padding: 0 15px;
 }
 
@@ -80,7 +80,7 @@ time {
 
 .container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 .intro {
@@ -99,7 +99,7 @@ time {
 .nav-bottom nav {
   float: left;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 .nav-top {
@@ -118,7 +118,7 @@ time {
 .nav-top nav {
   float: left;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
   padding-left: 12px;
 }
 
