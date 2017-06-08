@@ -23,9 +23,9 @@ body {
   color: #333;
   font-family: 'Mate', serif;
   font-size: 1.1em;
+  -webkit-font-smoothing: antialiased;
   line-height: 1.6;
   margin: 0;
-  -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -92,6 +92,16 @@ time {
   text-align: center;
 }
 
+.nav-bottom {
+  transform: rotate(1deg);
+}
+
+.nav-bottom nav {
+  float: left;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 .nav-top {
   background: #fff;
   border-bottom: 1px solid #fff;
@@ -99,6 +109,7 @@ time {
   left: 0;
   position: fixed;
   top: 0;
+  transform: rotate(-1deg);
   width: 100%;
   z-index: 2;
 }
@@ -108,12 +119,6 @@ time {
   margin: 0 auto;
   max-width: 800px;
   padding-left: 12px;
-}
-
-.nav-bottom nav {
-  float: left;
-  margin: 0 auto;
-  max-width: 800px;
 }
 
 .nav-top nav ul,
