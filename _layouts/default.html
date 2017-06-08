@@ -1,42 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="/css/rouge.css">
-    <link href="https://fonts.googleapis.com/css?family=Mate|Inconsolata" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
-  </head>
+<html lang="en-US">
+  {% include head.html %}
   <body>
-    <aside class="skip">
-      <a href="#main-content">skip to main content</a>
-    </aside>
-    <header>
-      <nav>
-        <a href="/">home</a>
-        <a href="/blog">blog</a>
-        <a href="/reading-list">reading list</a>
-      </nav>
-    </header>
-
+    {% include header.html %}
     <main id="main-content">
-    <div class="container">
-
+    <article>
       {{ content }}
-
-    </div>
+    </article>
+    {% include footer.html %}
     </main>
-
-    <footer>
-      <a href="mailto:devinrm@protonmail.com">email</a>
-      <a href="https://github.com/devinrm">github</a>
-      <a href="https://twitter.com/devinrm_">twitter</a>
-    </footer>
-
-    <div class="left"></div>
-    <div class="right"></div>
-    <div class="top"></div>
-    <div class="bottom"></div>
   </body>
 </html>

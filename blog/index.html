@@ -2,22 +2,26 @@
 layout: default
 title: blog
 ---
-<h1 class="blog">{{ page.title }}</h1>
-<article>
-  <ul class="posts">
+<header class="blog">
+  <h2>{{ page.title }}</h2>
+</header>
+<section>
+  <ul>
     {% for post in site.posts %}
     <li>
       <a class="post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
+      <time class="post-date">{{ post.date | date_to_string }}</time>
     </li>
     {% endfor %}
   </ul>
-  <section aria-label="I love J.R.R. Tolkien so I left a quote
-  here for you and a link to my favorite book that he wrote, The Hobbit.">
-    <a href="http://www.tolkienlibrary.com/booksbytolkien/hobbit/description.htm"
-       class="quote">"There is nothing like looking, if you want to find
+</section>
+
+<section aria-label="I love J.R.R. Tolkien so I left a quote
+here for you and a link to my favorite book that he wrote, The Hobbit.">
+  <blockquote class="tolkien">
+    <a href="http://www.tolkienlibrary.com/booksbytolkien/hobbit/description.htm">"There is nothing like looking, if you want to find
        something. You certainly usually find something, if you look, but it is not
        always quite the something you were after." -J.R.R. Tolkien, The Hobbit
     </a>
-  </section>
-</article>
+  </blockquote>
+</section>

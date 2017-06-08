@@ -1,5 +1,16 @@
-name: devin morgenstern's blog
-markdown: kramdown
+# Site Settings
+title: devin morgenstern
+email: devinrm@protonmail.com
+description: >
+  This is the technical blog of Devin Morgenstern. Here you will find tutorials,
+  technical posts, and what I'm currently reading.
+twitter_username: devinrm_
+github_username: devinrm
+
+# Build Settings
+kramdown:
+  input: GFM
+include: ['_pages']
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title
 gems:
