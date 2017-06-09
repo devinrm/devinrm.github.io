@@ -66,7 +66,6 @@ time {
 /* Classes */
 
 .blog,
-.posts,
 .reading-list {
   display: flex;
   margin: 200px 0 0;
@@ -162,6 +161,11 @@ time {
   display: table;
 }
 
+.posts {
+  margin: 200px 0 0;
+  padding: 0px 15px;
+}
+
 .quote {
   margin-top: 8em;
 }
@@ -193,6 +197,9 @@ time {
   width:auto;
 }
 
-.tolkien a {
+.tolkien a,
+.tolkien a:focus,
+.tolkien a:hover {
   color: #fff;
+  font-size: 1px;
 }
