@@ -15,7 +15,13 @@ something that should be added to the list, feel free to email me!
 
 [Computer Science](#computer-science)
 
+[HTML and CSS](#html-and-css)
+
 [JavaScript](#javascript)
+
+[Ruby and Rails](#ruby-and-rails)
+
+[Vim](#vim)
 
 -------------
 ## Algorithms
@@ -51,6 +57,22 @@ something that should be added to the list, feel free to email me!
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 * [BaseCS by Vaidehi Joshi](https://medium.com/basecs)
 
+---------------
+## HTML and CSS
+---------------
+
+* [Learn to Code HTML & CSS by Shay Howe](http://learn.shayhowe.com/html-css/)
+* [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)
+* [Chrome DevTools Overview](https://developer.chrome.com/devtools)
+* [Using Sass Maps](https://www.sitepoint.com/using-sass-maps/)
+* [Colormind](http://colormind.io/)
+* [The A11y Project](http://a11yproject.com/)
+* [CSS-TRICKS](https://css-tricks.com/)
+* [Material Design](https://material.io/)
+* [Material Design Light](https://getmdl.io/index.html)
+* [What the Flexbox?!](https://flexbox.io/)
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 -------------
 ## JavaScript
 -------------
@@ -68,3 +90,38 @@ something that should be added to the list, feel free to email me!
 * [Let’s Code: Test-Driven JavaScript](http://www.letscodejavascript.com/)
 * [NodeSchool](https://nodeschool.io/)
 * [CodinGame](https://www.codingame.com/start)
+* [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+----------------
+## Ruby and Rails
+----------------
+
+* [Upcase by thoughtbot](https://thoughtbot.com/upcase/)
+* [The Complete Guide to Rails Performance](https://www.railsspeed.com/)
+* [Go Rails](https://gorails.com/)
+* [Ruby Tapas](https://www.rubytapas.com/)
+* [Rails Era](http://railsera.com/)
+* [Learnetto](https://learnetto.com/)
+* [Ruby on Rails Tutorial by Michael Hartl](https://www.railstutorial.org/book)
+* [The Pragmatic Studio](https://pragmaticstudio.com/)
+* [Tenderlove Making written by Aaron Patterson](http://tenderlovemaking.com/)
+* [APIs on Rails](http://apionrails.icalialabs.com/book/frontmatter)
+* [Giant Robots Smashing into Other Giant Robots Written by thoughtbot](https://robots.thoughtbot.com/)
+* [Ruby QuickRef by Ryan Davis](https://www.zenspider.com/ruby/quickref.html)
+* [Computer Science Programming Basics in Ruby By Ophir Frieder, Gideon Frieder, David Grossman](http://shop.oreilly.com/product/0636920028192.do)
+* [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/)
+* [Saturn Flyer written by Jim Gay](https://www.saturnflyer.com/blog/)
+
+------
+## Vim
+------
+
+* [Vimgifs](https://vimgifs.com/)
+* [Upcase by thoughtbot](https://thoughtbot.com/upcase/)
+* [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
+* [Vim Cheatsheet](https://vim.rtorr.com/)
+* [PacVim](https://github.com/jmoon018/PacVim)
+* [Google Vimscript Style Guide](https://google.github.io/styleguide/vimscriptguide.xml)
+* [Write a Vim Plugin with TDD by Gabe Berke-Williams](https://robots.thoughtbot.com/write-a-vim-plugin-with-tdd)
+* [Advanced Vim Macros](https://sanctum.geek.nz/arabesque/advanced-vim-macros/)
+* [Advanced Vim Registers](https://sanctum.geek.nz/arabesque/advanced-vim-registers/)
