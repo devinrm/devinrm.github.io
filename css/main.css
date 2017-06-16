@@ -91,10 +91,6 @@ time {
   text-align: center;
 }
 
-.nav-bottom {
-  transform: rotate(1deg);
-}
-
 .nav-bottom nav {
   float: left;
   margin: 0 auto;
@@ -119,6 +115,7 @@ time {
   margin: 0 auto;
   max-width: 700px;
   padding-left: 12px;
+  transform: rotate(1deg);
 }
 
 .nav-top nav ul,
@@ -173,6 +170,7 @@ time {
 .site-header {
   font-size: 1.75em;
   padding: 8px;
+  transform: rotate(1deg);
 }
 
 .skip {
