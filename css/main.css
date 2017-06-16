@@ -169,6 +169,7 @@ time {
 
 .site-header {
   font-size: 1.75em;
+  margin-bottom: 0;
   padding: 8px;
   transform: rotate(1deg);
 }
