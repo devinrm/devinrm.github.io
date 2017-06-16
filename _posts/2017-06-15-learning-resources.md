@@ -56,6 +56,7 @@ something that should be added to the list, feel free to email me!
 * [OSS University](https://ossu.firebaseapp.com/#/)
 * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 * [BaseCS by Vaidehi Joshi](https://medium.com/basecs)
+* [Computer Science Programming Basics in Ruby By Ophir Frieder, Gideon Frieder, David Grossman](http://shop.oreilly.com/product/0636920028192.do)
 
 ---------------
 ## HTML and CSS
@@ -108,7 +109,6 @@ something that should be added to the list, feel free to email me!
 * [APIs on Rails](http://apionrails.icalialabs.com/book/frontmatter)
 * [Giant Robots Smashing into Other Giant Robots Written by thoughtbot](https://robots.thoughtbot.com/)
 * [Ruby QuickRef by Ryan Davis](https://www.zenspider.com/ruby/quickref.html)
-* [Computer Science Programming Basics in Ruby By Ophir Frieder, Gideon Frieder, David Grossman](http://shop.oreilly.com/product/0636920028192.do)
 * [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/)
 * [Saturn Flyer written by Jim Gay](https://www.saturnflyer.com/blog/)
 
