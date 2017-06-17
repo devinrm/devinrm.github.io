@@ -68,7 +68,7 @@ time {
 .blog,
 .reading-list {
   display: flex;
-  margin: 200px 0 0;
+  margin: 150px 0 0;
   padding: 0px 15px;
 }
 
@@ -164,7 +164,7 @@ time {
 }
 
 .quote {
-  margin-top: 8em;
+  margin-top: 7em;
 }
 
 .site-header {
