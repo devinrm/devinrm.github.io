@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  {% include head.html %}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge.css">
+    <link href="https://fonts.googleapis.com/css?family=Mate|Inconsolata" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title>{{ page.title }}</title>
+  </head>
   <body>
-    {% include header.html %}
+    <header class="nav-top" role="banner">
+      <div class="container">
+        <aside class="skip">
+          <a href="#main-content">skip to main content</a>
+        </aside>
+        <h1 class="site-header"><a href="/">{{ site.title }}</a></h1>
+        <nav>
+          <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/blog">blog</a></li>
+            <li><a href="/reading-list">reading list</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main id="main-content">
     <article>
       {{ content }}
     </article>
-    {% include footer.html %}
+    <footer class="nav-bottom">
+      <nav>
+        <ul>
+          <li><a href="mailto:devinrm@protonmail.com">email</a></li>
+          <li><a href="https://github.com/devinrm">github</a></li>
+          <li><a href="https://twitter.com/devinrm_">twitter</a></li>
+        </ul>
+        <ul>
+          <li>copyright © 2017 devin morgenstern</li>
+        </ul>
+      </nav>
+    </footer>
     </main>
   </body>
 </html>
