@@ -102,10 +102,10 @@ time {
   background: #fff;
   border-bottom: 1px solid #fff;
   box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
-  height: 7.5em;
+  height: 8em;
   left: 0;
-  margin-top: -0.25em;
-  padding-top: 1.5em;
+  margin-top: -0.5em;
+  padding-top: 2em;
   position: fixed;
   top: 0;
   transform: rotate(-1deg);
