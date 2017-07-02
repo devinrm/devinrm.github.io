@@ -13,11 +13,16 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
+a:hover {
   color: #5BA481;
   font-weight: 600;
   text-decoration: underline;
+}
+
+a:focus {
+  background-color: #3366cc;
+  color: #fff;
+  font-weight: 600;
 }
 
 body {
@@ -146,12 +151,16 @@ time {
 
 .nav-top nav ul li a:hover,
 .nav-top nav ul li a:active,
-.nav-top nav ul li a:focus,
 .nav-bottom nav ul li a:hover,
-.nav-bottom nav ul li a:active,
-.nav-bottom nav ul li a:focus {
+.nav-bottom nav ul li a:active {
   color: #5BA481;
   text-decoration: underline;
+}
+
+.nav-top nav ul li a:focus,
+.nav-bottom nav ul li a:focus {
+  background-color: #3366cc;
+  color: #fff;
 }
 
 .nav-top nav:after,
@@ -192,7 +201,8 @@ time {
 }
 
 .skip a:focus {
-  color: #3366cc;
+  background-color: #3366cc;
+  color: #fff;
   height: auto;
   position: static;
   width: auto;
