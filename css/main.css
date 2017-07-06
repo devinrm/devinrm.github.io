@@ -23,6 +23,7 @@ a:focus {
   background-color: #3366cc;
   color: #fff;
   font-weight: 600;
+  padding: 0.25em;
 }
 
 body {
