@@ -20,10 +20,10 @@ a:hover {
 }
 
 a:focus {
-  background-color: #3366cc;
-  color: #fff;
+  color: #5BA481;
   font-weight: 600;
   padding: 0.25em;
+  outline: 3px solid #3366cc;
 }
 
 body {
@@ -160,8 +160,7 @@ time {
 
 .nav-top nav ul li a:focus,
 .nav-bottom nav ul li a:focus {
-  background-color: #3366cc;
-  color: #fff;
+  color: #5BA481;
 }
 
 .nav-top nav:after,
@@ -202,8 +201,7 @@ time {
 }
 
 .skip a:focus {
-  background-color: #3366cc;
-  color: #fff;
+  color: #5BA481;
   height: auto;
   position: static;
   width: auto;
