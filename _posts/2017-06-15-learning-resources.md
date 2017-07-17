@@ -112,6 +112,7 @@ something that should be added to the list, feel free to email me!
 * [Ruby QuickRef by Ryan Davis](https://www.zenspider.com/ruby/quickref.html)
 * [Idiosyncratic Ruby](https://idiosyncratic-ruby.com/)
 * [Saturn Flyer written by Jim Gay](https://www.saturnflyer.com/blog/)
+* [Drifting Ruby](https://www.driftingruby.com/)
 
 ------
 ## Vim
