@@ -20,10 +20,9 @@ a:hover {
 }
 
 a:focus {
-  color: #5BA481;
   font-weight: 600;
   padding: 0.25em;
-  outline: 3px solid #3366cc;
+  outline: 3px solid rgba(51, 102, 204, 0.6);
 }
 
 body {
@@ -158,11 +157,6 @@ time {
   text-decoration: underline;
 }
 
-.nav-top nav ul li a:focus,
-.nav-bottom nav ul li a:focus {
-  color: #5BA481;
-}
-
 .nav-top nav:after,
 .nav-bottom nav:after {
   clear: both;
@@ -191,7 +185,7 @@ time {
 }
 
 .skip a {
-  color: rgba(255,255,255,0.75);
+  color: #3366cc;
   height: 1px;
   left: -10000px;
   overflow: hidden;
@@ -201,7 +195,6 @@ time {
 }
 
 .skip a:focus {
-  color: #5BA481;
   height: auto;
   position: static;
   width: auto;
