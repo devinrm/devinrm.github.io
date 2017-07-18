@@ -93,6 +93,7 @@ something that should be added to the list, feel free to email me!
 * [CodinGame](https://www.codingame.com/start)
 * [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [React Express](http://www.react.express/)
+* [Useful Pens for Everyday Front End Development](https://codepen.io/collection/nMgKxJ/)
 
 ----------------
 ## Ruby and Rails
