@@ -256,7 +256,7 @@
   }
 
   .skip a:focus {
-    outline: 3px solid rgba(238, 0, 255, 0.6);
+    outline: 3px solid rgba(111, 255, 0, 0.6);
     height: auto;
     position: static;
     width: auto;
