@@ -34,6 +34,11 @@
     src: url('/assets/dameronital.ttf')  format('truetype');
   }
 
+  @font-face {
+    font-family: 'dameronlaser';
+    src: url('/assets/dameronlaser.ttf')  format('truetype');
+  }
+
   a {
     color: #6fff00;
     text-decoration: none;
@@ -100,6 +105,7 @@
   .blog,
   .reading-list {
     display: flex;
+    font-family: 'dameronital';
     margin: 150px 0 0;
     padding: 0px 15px;
   }
@@ -171,11 +177,20 @@
     position: relative;
   }
 
-  .nav-top nav ul li a,
-  .nav-bottom nav ul li a {
+  .nav-top nav ul li a {
     color: #f5fffe;
     display: block;
     font-family: 'damerongrad';
+    line-height: 20px;
+    margin-bottom: -1px;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  .nav-bottom nav ul li a {
+    color: #f5fffe;
+    display: block;
+    font-family: 'dameronlaser';
     line-height: 20px;
     margin-bottom: -1px;
     padding: 15px;
