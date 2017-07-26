@@ -9,7 +9,7 @@
   }
 
   html {
-    background: url(/assets/grid_c.jpg) no-repeat center center fixed;
+    background: url(/assets/grid_c.webp) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,7 +140,7 @@
   }
 
   .nav-bottom {
-    margin-top: 10em;
+    margin-top: 12em;
   }
 
   .nav-top {
