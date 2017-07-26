@@ -9,10 +9,7 @@
   }
 
   html {
-    background: linear-gradient(
-    rgba(214, 110, 110, 0.1),
-    rgba(214, 110, 110, 0.1)
-    ), url(/assets/grid_n.jpg) no-repeat center center fixed;
+    background: url(/assets/grid_c.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
