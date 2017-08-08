@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Testing Rails"
+title: "Ways to Test Rails"
 date: 2017-05-04
 ---
 
