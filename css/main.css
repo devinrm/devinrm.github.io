@@ -9,11 +9,10 @@
   }
 
   html {
-    background: url(/assets/grid_c.webp) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(/assets/grid_c.png) no-repeat center center fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
   }
 
   @font-face {
