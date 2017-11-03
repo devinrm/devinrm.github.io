@@ -20,6 +20,7 @@
   a:hover {
     color: #f89400;
     text-decoration: underline;
+    outline: 3px solid rgba(111, 255, 0, 0.6);
   }
 
   a:focus {
@@ -169,8 +170,10 @@
   }
 
   .nav-top nav ul li a:focus,
-  .nav-bottom nav ul li a:focus {
-    outline: 3px solid rgba(238, 0, 255, 0.6);
+  .nav-bottom nav ul li a:focus,
+  .nav-top nav ul li a:hover,
+  .nav-bottom nav ul li a:hover {
+    outline: 3px solid rgb(255, 255, 255);
     color: #ee00ff;
   }
 
@@ -206,13 +209,10 @@
     color: #fefefe;
   }
 
-  .site-header a:hover {
-    color: #ee00ff;
-  }
-
+  .site-header a:hover,
   .site-header a:focus {
-    outline: 3px solid rgba(238, 0, 255, 0.6);
     color: #ee00ff;
+    outline: 3px solid rgb(255, 255, 255);
   }
 
   .skip {
