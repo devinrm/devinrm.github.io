@@ -2,15 +2,12 @@
 layout: default
 title: blog
 ---
-<header class="blog">
-  <h2>{{ page.title }}</h2>
-</header>
-<section>
+
+<section class="blog">
   <ul class="blog-posts">
     {% for post in site.posts %}
     <li>
       <a class="post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      <time class="post-date">{{ post.date | date_to_string }}</time>
     </li>
     {% endfor %}
   </ul>
