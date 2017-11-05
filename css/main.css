@@ -25,7 +25,6 @@
 
   a:focus {
     color: #f89400;
-    padding: 0.25rem;
     outline: 3px solid rgba(111, 255, 0, 0.6);
   }
 
@@ -148,8 +147,7 @@
     font-family: 'Inconsolata', monospace;
     font-size: 2rem;
     line-height: 2rem;
-    margin-bottom: -1px;
-    padding: 1rem;
+    margin: 1rem;
     text-decoration: none;
   }
 
@@ -158,8 +156,7 @@
     display: block;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    margin-bottom: -1px;
-    padding: 1rem;
+    margin: 1rem;
     text-decoration: none;
   }
 
@@ -200,6 +197,10 @@
     font-family: 'Droid Sans Mono', monospace;
     font-size: 1.3rem;
     margin-top: 18rem;
+  }
+
+  .quote a {
+    text-decoration: underline;
   }
 
   .site-header {
