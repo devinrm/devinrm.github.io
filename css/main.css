@@ -161,9 +161,8 @@
   }
 
   .nav-top nav ul li a:hover,
-  .nav-top nav ul li a:active,
-  .nav-bottom nav ul li a:hover,
-  .nav-bottom nav ul li a:active {
+  .nav-top nav ul li a.selected,
+  .nav-bottom nav ul li a:hover {
     color: #ee00ff;
     text-decoration: underline;
   }
