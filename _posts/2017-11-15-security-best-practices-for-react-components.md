@@ -78,15 +78,19 @@ Best Practice:
 
 ```javascript
 // Example 1:
-<div dangerouslySetInnerHTML={{__html: “<script>alert(‘xss!’);</script>“}} /> 
+
+<div dangerouslySetInnerHTML={__html: "<script>alert('xss!');</script>"} /> 
 
 // should be written as:
-<div dangerouslySetInnerHTML={{__html: xss(“<script>alert(‘xss!’);</script>“)}} />
+
+<div dangerouslySetInnerHTML={__html: xss("<script>alert('xss!');</script>")} />
 
 // Example 2:
+
 <a href={linkToUserHomepage}>Visit My Homepage</a >
 
 // should be written as: 
+
 <a href={xss.safeAttrValue("a", "href", linkToUserHomepage)}>Visit My Homepage</a>
 ```
 
@@ -119,7 +123,7 @@ HTML code.
 An example attack would look like: 
 
 ```javascript
-</script><script>alert(‘XSS’){{</script><script>alert(‘XSS’)}}
+</script><script>alert('XSS')</script><script>alert('XSS')
 ```
 
 ## Serialize JSON
